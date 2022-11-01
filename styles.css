@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: white;
+    padding: 25px;
+}
+
+header, h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 46px;
+}
+
+.action-message {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    padding: 45px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.choices {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.choice {
+    display: inline-block;
+    padding: 2px;
+    margin: 0 50px;
+    transition: all 0.5s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    border: 4px solid #4dcc7d;
+    border-radius: 2px;
+    box-shadow: 0 0 10px #31b43a;
+    
+}
+
+
+.result {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 2px solid white;
+    border-radius: 3px;
+    width: 300px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 25px;
+    left: -40px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 25px;
+    right: -70px;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+}
+
+#reset-button {
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+footer {
+    margin: 50px;
+    border-top: 1px solid whitesmoke;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+
