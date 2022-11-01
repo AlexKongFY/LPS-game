@@ -8,4 +8,4 @@ Lapis - Rock/Stone <br>
 Papyrus - Paper <br>
 Scalpellus - Scalpel/Scissors <br>
 
-URL: 
+URL: https://alexkongfy.github.io/LPS-game/
