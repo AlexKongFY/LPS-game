@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lapis Papyrus Scalpellus Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Lapis Papyrus Scalpellus Game</h1>
+        </header>
+        
+        <p class="action-message">Choose Your Weapon of Choice :</p>
+        
+        <div class="choices">
+            <div class="choice" id="lapis">
+                <img src="https://i.imgur.com/aUiOFCu.jpg" alt="rock">
+            </div>
+            <div class="choice" id="papyrus">
+                <img src="https://i.imgur.com/fjYPNM8.jpg?1" alt="paper">
+            </div>
+            <div class="choice" id="scalpellus">
+                <img src="https://i.imgur.com/eGFHRGD.png?1" alt="scalpel">
+            </div>
+        </div>
+
+        <div class="result">
+            <p>Time to begin.</p>
+        </div>
+
+        <div class="score-board">
+            <div class="badge" id="user-label">User</div>
+            <div class="badge" id="computer-label">Computer</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+
+        <div class="center">
+        <button id="reset-button">Reset Game</button>
+        </div>
+
+        <footer>
+            <p>Created by Alex Kong &copy 2022</p>
+        </footer>
+        <script type="text/javascript" charset="utf-8" src="app.js"></script>
+    </body>
+</html>
